@@ -9,5 +9,6 @@ namespace APBD_kolokwium.Services
     public interface IDbService
     {
         List<PrescriptionResponse> GetPrescription(int id);
+        NewPrescriptionResponse CreatePrescription(NewPrescriptionRequest request);
     }
 }
